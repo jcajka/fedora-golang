@@ -8,7 +8,7 @@ ENV GOPATH=/home/golang/ \
     GOARCH=amd64  
 
 #Install golang
-RUN dnf -y install 'dnf-command(copr)' && dnf copr enable jcajka/golang1.7 && dnf -y install --setopt=tsflags=nodocs golang && dnf clean all 
+RUN dnf -y install 'dnf-command(copr)' && dnf -y copr enable jcajka/golang1.7 && dnf -y install --setopt=tsflags=nodocs golang && dnf clean all 
 
 CMD ["go","version"]
 
