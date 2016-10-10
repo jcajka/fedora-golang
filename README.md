@@ -9,8 +9,11 @@ Dockerfiles for Fedora based images with golang
 | Fedora 23  | go1.5.4  | 23 |
 | Fedora 24  | go1.7.1  | 24-go1.7 |
 | Fedora 23  | go1.7.1  | 23-go1.7 |
+| Fedora 24  | go-devel | 24-tip |
+| Fedora 23  | go-devel | 23-tip |
 
 Go1.7 is obtained from https://copr.fedorainfracloud.org/coprs/jcajka/golang1.7/
+Go-devel is obtained from https://copr.fedorainfracloud.org/coprs/jcajka/golang-rawhide/
 
 ## Basic usage
 
