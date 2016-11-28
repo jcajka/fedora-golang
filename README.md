@@ -5,10 +5,12 @@ Dockerfiles for Fedora based images with golang
 
 | Fedora release  | Go version | Tag |
 | ------------- | ------------- | ------------- |
+| Fedora 25  | go1.7.3  | 25, latest|
 | Fedora 24  | go1.6.3  | 24 |
 | Fedora 23  | go1.5.4  | 23 |
-| Fedora 24  | go1.7.1  | 24-go1.7 |
-| Fedora 23  | go1.7.1  | 23-go1.7 |
+| Fedora 24  | go1.7.3  | 24-go1.7 |
+| Fedora 23  | go1.7.3  | 23-go1.7 |
+| Fedora 25  | go-devel | 25-tip | 
 | Fedora 24  | go-devel | 24-tip |
 | Fedora 23  | go-devel | 23-tip |
 
